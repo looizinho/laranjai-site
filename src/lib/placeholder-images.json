@@ -1,3 +1,40 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-background",
+      "description": "A beautiful orange grove under the sun.",
+      "imageUrl": "https://picsum.photos/seed/laranjai-hero/1920/1080",
+      "imageHint": "orange grove"
+    },
+    {
+      "id": "orange-pera",
+      "description": "A crate full of fresh Pera oranges.",
+      "imageUrl": "https://picsum.photos/seed/pera-orange/600/400",
+      "imageHint": "oranges crate"
+    },
+    {
+      "id": "orange-bahia",
+      "description": "Close up of a juicy Bahia orange.",
+      "imageUrl": "https://picsum.photos/seed/bahia-orange/600/400",
+      "imageHint": "oranges"
+    },
+    {
+      "id": "orange-lima",
+      "description": "Several Lima oranges on a wooden surface.",
+      "imageUrl": "https://picsum.photos/seed/lima-orange/600/400",
+      "imageHint": "oranges table"
+    },
+    {
+      "id": "about-us-history",
+      "description": "Vintage photo of a farm with workers.",
+      "imageUrl": "https://picsum.photos/seed/laranjai-history/800/600",
+      "imageHint": "farm history"
+    },
+    {
+      "id": "about-us-values",
+      "description": "View of Rio de Janeiro with mountains.",
+      "imageUrl": "https://picsum.photos/seed/laranjai-rio/800/600",
+      "imageHint": "rio de janeiro"
+    }
+  ]
 }
