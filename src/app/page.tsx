@@ -48,7 +48,7 @@ export default function Home() {
     <div className="flex flex-col">
       <section className="relative h-[60vh] md:h-[70vh] flex items-center justify-center text-center text-white">
         <Image
-          src="/images/laranjal.jpg"
+          src="laranjal.jpg"
           alt="Laranjal numa fazenda"
           fill
           className="object-cover"
