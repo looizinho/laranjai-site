@@ -59,7 +59,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-black/60" />
         <div className="relative z-10 flex flex-col items-center gap-4 px-4">
           <h1 className="text-4xl md:text-6xl font-headline font-bold drop-shadow-lg">
-            Laranjas Frescas do Rio Direto Para o Seu Negócio
+            Laranjas Frescas do Rio<br/>Direto Para o Seu Negócio
           </h1>
           <p className="max-w-2xl text-lg md:text-xl text-primary-foreground/90 drop-shadow-md">
             Qualidade, sabor e a tecnologia da LaranjAI para impulsionar suas vendas.
