@@ -2,9 +2,9 @@
   "placeholderImages": [
     {
       "id": "hero-background",
-      "description": "A beautiful orange grove under the sun.",
-      "imageUrl": "https://picsum.photos/seed/laranjai-hero/1920/1080",
-      "imageHint": "orange grove"
+      "description": "Um laranjal em uma fazenda.",
+      "imageUrl": "https://picsum.photos/seed/laranjal-farm/1920/1080",
+      "imageHint": "orange farm"
     },
     {
       "id": "orange-pera",
