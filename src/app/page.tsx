@@ -5,6 +5,7 @@ import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/componen
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Badge } from "@/components/ui/badge";
 import { ArrowRight, Truck, Leaf, Star } from "lucide-react";
+import heroImage from "@/assets/images/hero.png";
 
 const products = [
   {
@@ -48,7 +49,7 @@ export default function Home() {
     <div className="flex flex-col">
       <section className="relative h-[60vh] md:h-[70vh] flex items-center justify-center text-center text-white">
         <Image
-          src="laranjal.jpg"
+          src={heroImage}
           alt="Laranjal numa fazenda"
           fill
           className="object-cover"
