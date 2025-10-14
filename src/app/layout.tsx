@@ -4,6 +4,7 @@ import { Header } from '@/components/layout/header';
 import { Footer } from '@/components/layout/footer';
 import { Toaster } from '@/components/ui/toaster';
 import { ThemeProvider } from '@/components/theme-provider';
+import { GoogleAnalytics } from '@/components/google-analytics';
 
 export const metadata: Metadata = {
   title: 'LaranjAI Atacado',
@@ -29,6 +30,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
+          <GoogleAnalytics measurementId={process.env.NEXT_PUBLIC_GA_ID} />
           <Header />
           <main className="flex-grow">{children}</main>
           <Footer />
