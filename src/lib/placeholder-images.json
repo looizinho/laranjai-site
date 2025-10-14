@@ -1,12 +1,6 @@
 {
   "placeholderImages": [
     {
-      "id": "hero-background",
-      "description": "Um laranjal com uma casa de fazenda ao fundo em um dia ensolarado.",
-      "imageUrl": "https://storage.googleapis.com/aip-dev-images-us-central1/public/project-1760467483806/users/user-default/923485f5-937b-4022-8edb-74b6ffc25dbb.jpeg",
-      "imageHint": "orange farm"
-    },
-    {
       "id": "orange-pera",
       "description": "A crate full of fresh Pera oranges.",
       "imageUrl": "https://picsum.photos/seed/pera-orange/600/400",

@@ -43,21 +43,18 @@ const features = [
 ];
 
 export default function Home() {
-  const heroImage = PlaceHolderImages.find(p => p.id === "hero-background");
 
   return (
     <div className="flex flex-col">
       <section className="relative h-[60vh] md:h-[70vh] flex items-center justify-center text-center text-white">
-        {heroImage && (
-          <Image
-            src={heroImage.imageUrl}
-            alt={heroImage.description}
-            fill
-            className="object-cover"
-            data-ai-hint={heroImage.imageHint}
-            priority
-          />
-        )}
+        <Image
+          src="/images/laranjal.jpg"
+          alt="Laranjal numa fazenda"
+          fill
+          className="object-cover"
+          data-ai-hint="orange farm"
+          priority
+        />
         <div className="absolute inset-0 bg-black/60" />
         <div className="relative z-10 flex flex-col items-center gap-4 px-4">
           <h1 className="text-4xl md:text-6xl font-headline font-bold drop-shadow-lg">
