@@ -5,7 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Citrus, Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { Sheet, SheetContent, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
 import { cn } from "@/lib/utils";
 
 const navLinks = [
@@ -56,6 +56,7 @@ export function Header() {
               </Button>
             </SheetTrigger>
             <SheetContent side="left" className="w-full max-w-xs pr-0">
+              <SheetTitle className="sr-only">Menu de Navegação</SheetTitle>
               <div className="flex h-full flex-col">
                 <div className="flex items-center justify-between border-b pb-4 mb-4">
                     <Link href="/" className="flex items-center gap-2" onClick={() => setIsOpen(false)}>
