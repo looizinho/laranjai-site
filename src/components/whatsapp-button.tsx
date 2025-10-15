@@ -20,7 +20,7 @@ const WhatsAppIcon = (props: React.SVGProps<SVGSVGElement>) => (
 
 
 export function WhatsAppButton() {
-  const phoneNumber = "5521999998888"; 
+  const phoneNumber = "5521982029279"; 
   const message = "Olá! Gostaria de mais informações sobre as laranjas.";
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
