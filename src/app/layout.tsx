@@ -6,6 +6,7 @@ import { Toaster } from '@/components/ui/toaster';
 import { ThemeProvider } from '@/components/theme-provider';
 import { GoogleAnalytics } from '@/components/google-analytics';
 import { Suspense } from 'react';
+import { WhatsAppButton } from '@/components/whatsapp-button';
 
 export const metadata: Metadata = {
   title: 'LaranjAI Atacado',
@@ -37,6 +38,7 @@ export default function RootLayout({
           <Header />
           <main className="flex-grow">{children}</main>
           <Footer />
+          <WhatsAppButton />
           <Toaster />
         </ThemeProvider>
       </body>
